@@ -65,7 +65,7 @@ jobs:
     # Push the Docker image to Google Artifact Registry
     - name: Publish
       run: |-
-        docker push "gcr.io/spingboot-reactive/fr-auth/fr-auth:1.0"
+        docker push "gcr.io/spingboot-reactive/fr-auth:1.0"
     # Deploy using Helm
     - name: Deploy using Helm
       uses: WyriHaximus/github-action-helm3@v3

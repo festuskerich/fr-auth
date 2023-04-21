@@ -7,7 +7,7 @@ services:
         uid: 1000
       context: ./
       dockerfile: Dockerfile
-    image: gcr.io/spingboot-reactive/fr-auth/fr-auth:1.0
+    image: gcr.io/spingboot-reactive/fr-auth:1.0
     container_name: fr-auth
     restart: unless-stopped
     working_dir: /var/www/
