@@ -17,7 +17,7 @@ on:
     branches: [ "main" ]
 
 env:
-  PROJECT_ID: fr-auth
+  PROJECT_ID: spingboot-reactive
   GAR_LOCATION: us-central1 # TODO: update region of the Artifact Registry
   GKE_CLUSTER: autopilot-cluster-1   # TODO: update to cluster name
   GKE_ZONE: us-central1   # TODO: update to cluster zone
@@ -65,7 +65,7 @@ jobs:
     # Push the Docker image to Google Artifact Registry
     - name: Publish
       run: |-
-        docker push "gcr.io/fr-auth/fr-auth/fr-auth:1.0"
+        docker push "gcr.io/spingboot-reactive/fr-auth/fr-auth:1.0"
     # Deploy using Helm
     - name: Deploy using Helm
       uses: WyriHaximus/github-action-helm3@v3
