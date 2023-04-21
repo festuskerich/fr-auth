@@ -65,7 +65,7 @@ jobs:
     # Push the Docker image to Google Artifact Registry
     - name: Publish
       run: |-
-        docker push "gcr.io/$PROJECT_ID/$REPOSITORY/$IMAGE:$GITHUB_SHA"
+        docker push "gcr.io/$PROJECT_ID/$REPOSITORY/$IMAGE:1.0"
     # Deploy using Helm
     - name: Deploy using Helm
       uses: WyriHaximus/github-action-helm3@v3
