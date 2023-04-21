@@ -17,7 +17,7 @@ on:
     branches: [ "main" ]
 
 env:
-  PROJECT_ID: ${{ secrets.GKE_PROJECT }}
+  PROJECT_ID: fr-auth
   GAR_LOCATION: us-central1 # TODO: update region of the Artifact Registry
   GKE_CLUSTER: autopilot-cluster-1   # TODO: update to cluster name
   GKE_ZONE: us-central1   # TODO: update to cluster zone
@@ -61,10 +61,7 @@ jobs:
     # Build the Docker image
     - name: Build
       run: |-
-        docker-compose up --build \
-          --tag "gcr.io/$PROJECT_ID/$REPOSITORY/$IMAGE:$GITHUB_SHA" \
-          --build-arg GITHUB_SHA="$GITHUB_SHA" \
-          --build-arg GITHUB_REF="$GITHUB_REF" \
+        docker-compose build
           .
     # Push the Docker image to Google Artifact Registry
     - name: Publish

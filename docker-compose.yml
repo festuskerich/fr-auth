@@ -8,7 +8,7 @@ services:
       context: ./
       dockerfile: Dockerfile
     image: fr-auth
-    container_name: fr-auth-app
+    container_name: fr-auth
     restart: unless-stopped
     working_dir: /var/www/
     volumes:
