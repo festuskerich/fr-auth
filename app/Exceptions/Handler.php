@@ -2,7 +2,10 @@
 
 namespace App\Exceptions;
 
+use App\Http\Controllers\helper\CustomResponse;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Auth\AuthenticationException;
+
 use Throwable;
 
 class Handler extends ExceptionHandler
@@ -43,6 +46,14 @@ class Handler extends ExceptionHandler
     {
         $this->reportable(function (Throwable $e) {
             //
+        });
+        $this->renderable(function (AuthenticationException $e, $request) {
+            if ($request->is('api/*')) {
+                return response()->json(
+                    new CustomResponse("Unauthenticated", false, 401, null),
+                    401
+                );
+            }
         });
     }
 }

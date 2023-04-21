@@ -10,6 +10,7 @@ use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 use App\Models\User;
+use App\Models\Role;
 use App\Http\Controllers\helper\CustomResponse;
 
 class AuthController extends Controller
@@ -47,7 +48,9 @@ class AuthController extends Controller
                 'data' => null
             ], 422);
         }
-        Log::info('Creating user ' . $input['email']);
+
+        $userole = Role::where('name', 'USER')->first();
+        Log::info('Role found is :::: '.$userole .' Proceeding to create user ' . $input['email']);
         $user = User::create([
             'first_name' => $input['first_name'],
             'last_name' => $input['last_name'],
@@ -55,6 +58,7 @@ class AuthController extends Controller
             'email' => $input['email'],
             'password' => Hash::make($input['password']),
         ]);
+        $user->assignRole($userole);
         return response()->json([
             'message' => 'User Created succesfully',
             'success' => true,
@@ -77,8 +81,6 @@ class AuthController extends Controller
                 "data" => $validator->errors()
             ], 400);
         }
-        //$http = new Client(['verify' => false]);
-
         $user = User::where('email', $request['email'])->first();
         if (!$user || !Hash::check($request['password'], $user->password)) {
             return response()->json(
@@ -86,13 +88,12 @@ class AuthController extends Controller
                 401
             );
         }
-        /*$array[] = $user->permissions()->map( function ($obj) {
-           return $obj;
-           });
-           foreach($array as $value){
-             Log::info('permission granted to user '.$value);
-            }*/
-        $array = ["hello"];
+        $array[] = $user->permissions()->map(function ($obj) {
+            return $obj;
+        });
+        foreach ($array as $value) {
+            Log::info('permission granted to user ' . $value);
+        }
 
         $token = $user->createToken($request['email'], $array)->plainTextToken;
 
@@ -101,7 +102,7 @@ class AuthController extends Controller
                 'grant_type' => 'password',
                 'token' => $token,
                 'username' => $user->email,
-                'scope' => '',
+                'role' => $user->roles
             ];
 
         return response()->json(
