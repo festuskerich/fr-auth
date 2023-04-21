@@ -61,7 +61,7 @@ jobs:
     # Build the Docker image
     - name: Build
       run: |-
-        docker-compose --file docker-compose.test.yml build
+        docker-compose build
     # Push the Docker image to Google Artifact Registry
     - name: Publish
       run: |-
