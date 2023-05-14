@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\api\AuthController;
 use App\Http\Controllers\api\ProverbController;
 use App\Http\Controllers\api\ProfileController;
+use App\Http\Controllers\api\NativeLanguageController;
+use App\Http\Controllers\api\SubtribeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,5 +34,15 @@ Route::group(['prefix' => 'v1/'], function () {
         Route::middleware(SANCTUM)->post('/', [ProverbController::class, 'store']);
         Route::get('/', [ProverbController::class, 'index']);
         Route::get('/search', [ProverbController::class, 'search']);
+    });
+    Route::group(['prefix' => 'subtribe',SANCTUM], function () {
+        Route::get('/', [SubtribeController::class, 'index']);
+        Route::post('/', [SubtribeController::class, 'store']);
+        Route::put('/{id}', [SubtribeController::class, 'update']);
+    });
+    Route::group(['prefix' => 'native-languages',SANCTUM], function () {
+        Route::get('/', [NativeLanguageController::class, 'index']);
+        Route::post('/', [NativeLanguageController::class, 'store']);
+        Route::put('/{id}', [NativeLanguageController::class, 'update']);
     });
 });
