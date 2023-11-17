@@ -16,8 +16,9 @@ class ProverbController extends Controller
      */
     public function index()
     {
+        $data=Proverb::paginate(2);
         return response()->json(
-            new CustomResponse("Fetch successfully", true, 200, Proverb::paginate(2)),
+            new CustomResponse("Fetch successfully", true, 200, $data),
             200
         );
     }
@@ -113,5 +114,4 @@ class ProverbController extends Controller
             );
         }
     }
-
 }
