@@ -17,9 +17,9 @@ return new class extends Migration
             $table->text('meaning')->nullable();
             $table->text('eng_transalion')->nullable();
             $table->boolean("is_active")->nullable();
-            $table->unsignedBigInteger('native_langiage_id');
+            $table->unsignedBigInteger('language_id');
             $table->timestamps();
-            $table->foreign('native_langiage_id')->references('id')->on('native_languages')->onDelete('cascade');
+            $table->foreign('language_id')->references('id')->on('native_languages')->onDelete('cascade');
         });
     }
 

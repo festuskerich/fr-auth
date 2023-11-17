@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Controllers\helper\CustomResponse;
 use App\Models\Proverb;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Validator;
 
 
@@ -63,8 +64,11 @@ class ProverbController extends Controller
      */
     public function store(Request $request)
     {
+        Log::info("===============================");
         $validator = Validator::make($request->all(), [
             'localProverb' => 'required',
+            'language_id' => 'required'
+
         ]);
         if ($validator->fails()) {
             return response()->json(
@@ -73,7 +77,8 @@ class ProverbController extends Controller
             );
         }
         $proverb = Proverb::create([
-            'local_proverb' => $request['localProverb']
+            'local_proverb' => $request['localProverb'],
+            'language_id' => $request['language_id']
         ]);
         if ($proverb) {
             return response()->json(

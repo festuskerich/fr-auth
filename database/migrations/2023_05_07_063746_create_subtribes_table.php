@@ -14,7 +14,6 @@ return new class extends Migration
         Schema::create('subtribes', function (Blueprint $table) {
             $table->id();
             $table->string("name");
-            $table->longText("description");
             $table->string("residence")->nullable();
             $table->unsignedBigInteger('language_id');
             $table->timestamps();

@@ -19,4 +19,9 @@ class NativeLanguage extends Model
     {
         return $this->hasMany(Subtribe::class)->withTimestamps();
     }
+
+    public function proverbs()
+    {
+        return $this->hasMany(Proverb::class)->withTimestamps();
+    }
 }
