@@ -1,0 +1,530 @@
+[{
+    "id": 1,
+    "name": "Kalenjin",
+    "description": "The Kalenjin tribe in Kenya forms part of the Nilotic ethnic group. The tribe comprises 8 distinct groups with varying beliefs, dialects, and cultures.The Kalenjin tribe is renowned globally for its excellent record in multiple athletics competitions. Additionally, Kalenjins are the fourth largest ethnic group in the country. They are renowned for pastoralism and arable farming.Dancing and music among the Kalenjin were related to crucial work events such as field digging, grinding corn and herding in the Kalenjin community. Flutes, drums, and horns were central to the traditional Kalenjin music and dances.",
+    "residence": "Western highland",
+    "subtribes": [{
+            "id": 1,
+            "name": "Kipsigis",
+            "residence": "Kericho, Bomet and some parts of Narok, Kenya"
+        },
+        {
+            "id": 2,
+            "name": "Nandi",
+            "residence": "Kapsabet,Kenya"
+        },
+        {
+            "id": 3,
+            "name": "Keiyo",
+            "residence": "Kerio Valley,Kenya"
+        },
+        {
+            "id": 4,
+            "name": "Marakwet",
+            "residence": "Cherangani Hills,Kenya"
+        },
+        {
+            "id": 5,
+            "name": "Tugen",
+            "residence": "Baringo,Kenya"
+        },
+        {
+            "id": 6,
+            "name": "Terik",
+            "residence": "Kakamega and Nandi,Kenya"
+        },
+        {
+            "id": 7,
+            "name": "Pokot",
+            "residence": "Mount Elgon,Kenya"
+        },
+        {
+            "id": 8,
+            "name": "Sabaot",
+            "residence": "Mount Elgon,Kenya"
+
+        }
+    ]
+},
+{
+    "id": 2,
+    "name": "Embu",
+    "description": "Comprising about 1.5% of the Kenyan population,They originating from Mwene-Ndega and his wife Nthara, the Embu people initially occupied Runyenjes from which they spread out to their current ancestral land. The tribe now speak the Embu dialect. Embu people are fundamentally agrarian and firmly adhere to their customs and rituals, as is the case with other Bantu tribes. The tribe grows maize, sorghum, millet, yams beans, and cassava. Some of the cash crops grown by the Embu people include coffee, macadamia nuts, and tea.",
+    "residence": "Embu county on the foothills of Mount Kenya",
+    "subtribes": []
+
+},
+{
+    "id": 3,
+    "name": "Ameru",
+    "description": "The Ameru live in a vibrant agricultural land. They are primarily agrarians practising crop farming and controlled animal rearing.",
+    "residence": "Northeastern slopes of Mount Kenya",
+    "subtribes": [{
+            "id": 1,
+            "name": "Igembe"
+        },
+        {
+            "id": 2,
+            "name": "Tigania"
+        },
+        {
+            "id": 3,
+            "name": "Imenti"
+        },
+        {
+            "id": 4,
+            "name": "Igoji"
+        },
+        {
+            "id": 5,
+            "name": "Muthambi"
+        },
+        {
+            "id": 6,
+            "name": "Chuka"
+        },
+        {
+            "id": 7,
+            "name": "Mwimbi"
+        },
+        {
+            "id": 8,
+            "name": "Tharaka"
+        },
+        {
+            "id": 9,
+            "name": "Miutuni"
+
+        }
+    ]
+
+},
+{
+    "id": 4,
+    "name": "Kamba",
+    "description": "Kamba is the 5th largest tribe in Kenya, accounting for over 10 percent of Kenya's population. The tribe's mother tongue is Kikamba (Kamba). The Kamba people are skilful in basketry and woodcarving. They are also excellent hunters, pastoralists, and farmers. During the pre-colonial period, Kamba participated in long-distance trade. Family groups are central in the Kamba culture; hence marriage and other rites of passage rank high in the community. Kamba children are typically named after specific events, people, or times of birth. A good number of Kamba are Christians, but a few still strongly hold onto their beliefs in traditional religious ways.",
+    "residence": "",
+    "subtribes": []
+
+},
+{
+    "id": 5,
+    "name": "Kikuyu",
+    "description": "Kikuyu is the largest tribe in Kenya, making up over 20 percent of the country's population. The Kikuyu, also known as Agikuyu or Gikuyu, wield massive economic and political influence in Kenya. The tribe resides in central highlands and the fertile slopes of Mount Kenya that are perfect for the growth of coffee and tea.Migori County constituencies and their leaders in 2020 Long before settling in the fertile volcanic land, Kikuyu traded and intermarried with their close neighbours, the Maasai. The tribe was instrumental in the war against British colonialists, which eventually earned Kenya her independence. The Kikuyu majorly reside in Muranga, Nyeri, Kirinyaga, and Kiambu. The Kikuyu are also known for their excellent traditional dishes, including Mukimo and githeri.",
+    "residence": "Central highlands and the fertile slopes of Mount Kenya",
+    "subtribes": []
+
+},
+{
+    "id": 6,
+    "name": "Kisii",
+    "description": "Also known as the Gusii.Kisii land supports vibrant agricultural practices thanks to its fertility and the adequate rain in the region. The tribe is the 6th largest ethnic group in Kenya, with about 7 percent of the country's population. The Kisii people communicate in the Ekegusii mother tongue, which is closely associated with the Meru dialect. Some of the cash crops grown in the Kisii region include coffee, bananas, pyrethrum, and tea. READ ALSO List of ethnic groups in Africa The Kisii people are well-known for soapstone carvings, pottery, and basketry. Over three-quarters of Kisii people are Christians, with a few sticking to traditional religions.",
+    "residence": "Kisii highlands and sections of Western Kenya also Kisii county and Nyamira county",
+    "subtribes": []
+
+},
+{
+    "id": 7,
+    "name": "Kuria",
+    "description": "Popularly known as Abakuria.The tribe has an array of clans or subtribes known as Ibiaro. Even then, the variations between these clans regarding dialects and cultural practices are minor. The Kuria people are closely related to the Kisii people both in their physique and dialect. The two tribes were known to have a shared history until an attack by the Maasai split them into two distinct groups. Later, the split saw them form unique dialects and cultures despite their original similarities. The Kuria now have about 16 sub-tribes, including the Bakira, Nyabasi, Bagumbe, and Bairege, who reside in Tanzania. The Batimbaru, Bakenye, Bamerani, Baikoma, and Banyamongo live in Kenya along with several other subtribes forming the Kuria community. List of East African countries and their capitals Kuria people have borrowed a lot of cultural practices from the Luo owing to their proximity to the tribe. They are mainly agrarians with excellent pastoralism skills.",
+    "residence": "section of southern Nyanza and the Kenya-Tanzania border.",
+    "subtribes": [{
+            "id": 1,
+            "name": "Bakari",
+            "residence": "Tanzania"
+        },
+        {
+            "id": 2,
+            "name": "Nyabasi",
+            "residence": "Tanzania"
+        },
+        {
+            "id": 3,
+            "name": "Bugumbe",
+            "residence": "Tanzania"
+        },
+        {
+            "id": 4,
+            "name": "Bairege",
+            "residence": "Tanzania"
+        },
+        {
+            "id": 5,
+            "name": "Batimbaru",
+            "residence": "Kenya"
+        },
+        {
+            "id": 6,
+            "name": "Bakenye",
+            "residence": "Kenya"
+        },
+        {
+            "id": 7,
+            "name": "Bamerani",
+            "residence": "Kenya"
+        },
+        {
+            "id": 8,
+            "name": "Baikoma",
+            "residence": "Kenya"
+        },
+        {
+            "id": 9,
+            "name": "Banyamongo",
+            "residence": "Kenya"
+        }
+    ]
+
+},
+{
+    "id": 8,
+    "name": "Luhya",
+    "description": "The Luhya people, also called Baluhya, Abaluyia, or Abaluhya, are among the largest tribes of Kenya.They are perfect for agricultural practices. The tribe neighbours the Luo, Kalenjin, Teso, and Masaai. Coming closely after the Kikuyu tribe in numbers, Luhya people constitute about 14 percent of the country's population. The Abaluhyia tribe has 18 subtribes, with the Maragoli and the Bukusu dominating in numbers.A good number of Luhya people are now Christians, with a few blending the religion with traditional religion. Bullfighting is still an iconic sport amongst the tribe. The Luhya people grow various cash crops, including sugarcane and have ugali as their staple meal.",
+    "residence": "Occupies the fertile and well-watered western region of Kenya.",
+    "subtribes": [{
+            "id": 1,
+            "name": "Banyala"
+        },
+        {
+            "id": 2,
+            "name": "Banyore"
+        },
+        {
+            "id": 3,
+            "name": "Batsotso"
+        },
+        {
+            "id": 4,
+            "name": "Gisu"
+        },
+        {
+            "id": 5,
+            "name": "Idakho"
+        },
+        {
+            "id": 6,
+            "name": "Isukha"
+        },
+        {
+            "id": 7,
+            "name": "Khayo"
+        },
+        {
+            "id": 8,
+            "name": "Kisa"
+        },
+        {
+            "id": 9,
+            "name": "Marachi"
+        },
+        {
+            "id": 10,
+            "name": "Marama"
+        },
+        {
+            "id": 11,
+            "name": "Samia"
+        },
+        {
+            "id": 12,
+            "name": "Tachoni"
+        },
+        {
+            "id": 13,
+            "name": "Tiriki"
+        },
+        {
+            "id": 14,
+            "name": "Wanga"
+        }
+    ]
+
+},
+{
+    "id": 9,
+    "name": "Luo",
+    "description": "The Luo community spreads wide in the East African community with a presence in Kenya, Tanzania, Ethiopia, Congo, Sudan, and Uganda. The tribe is renowned for its people's distinct dialects, skills, cultural practices, and values. Unlike some other tribes, Luos do not have a tradition of circumcising their males but instead used to remove 6 teeth from their lower jaw. Wife inheritance among brothers and close relatives has also been a part of the Luo culture. Most Luos have now embraced Christianity, but a few of them still hold to traditions such as rainmaking dances, among other rituals. Urban Luos exhibit a sense of glitz in their lifestyle with eloquence in English. Besides sugarcane and cotton farming, Luos are skilled fishermen and are known to favour ugali and fish as their staple food. Luos occupy major urban centres in the country and have an enormous presence in Kisumu County, Bondo Town, Homabay County, and the southern part of Migori County.",
+    "residence": "Spreads wide in the East African community with a presence in Kenya, Tanzania, Ethiopia, Congo, Sudan and Uganda",
+    "subtribes": []
+
+},
+{
+    "id": 10,
+    "name": "Maasai",
+    "description": "The Maasai tribe has one of the best-preserved cultures in the country. The Maasai people have managed to hold on to their culture amidst the civilization and proliferation of the western culture in the country. The tribe is now the most iconic symbol of Kenyan culture. Belonging to the Nilo-Saharan family, Maasai people communicate in Maa dialect. Maasai people are predominantly nomads who have stuck to their traditional way of herding livestock. The tribe measures a man's wealth by his cattle and children.",
+    "residence": "reside in southern Kenya and northern parts of Tanzania.",
+    "subtribes": []
+
+},
+{
+    "id": 11,
+    "name": "Mijikenda",
+    "description": "Mijikenda is a Bantu ethnic group with about 9 subtribes who share common cultural practices and language. Previously called the Nyika tribe (bush people), the tribe later changed its name to Mijikenda, a Swahili name for nine homesteads or nine homes.",
+    "residence": "coastal region",
+    "subtribes": [{
+            "id": 1,
+            "name": "Jibana"
+        },
+        {
+            "id": 2,
+            "name": "Rabai"
+        },
+        {
+            "id": 3,
+            "name": "Digo"
+        },
+        {
+            "id": 4,
+            "name": "Giriama"
+        },
+        {
+            "id": 5,
+            "name": "Ribe"
+        },
+        {
+            "id": 6,
+            "name": "Kauma"
+        },
+        {
+            "id": 7,
+            "name": "Duruma"
+        },
+        {
+            "id": 8,
+            "name": "Kambe"
+        },
+        {
+            "id": 9,
+            "name": "Chonyi"
+        }
+
+    ]
+
+},
+{
+    "id": 12,
+    "name": "Orma",
+    "description": "The Orma people are mainly along the lower parts of the Tana River. The tribe also occupies the southern parts of Somalia in the lower and middle areas of the Juba Valley. The tribe identifies as semi-nomads. According to recent statistical findings, the tribe's population is more than 80,000 people.",
+    "residence": "Eastern Kenya",
+    "subtribes": []
+},
+{
+    "id": 13,
+    "name": "Rendile",
+    "description": "The Rendille people are a Cushitic-speaking ethnic community living in Kenya's northern Eastern areas. Rendille is a word that translates to 'Holders of the Stick of God'. The tribe has a reputable history in nomadism, rearing camels, cattle, sheep, and goats.",
+    "residence": "Kenya's northern Eastern areas",
+    "subtribes": []
+  },
+  {
+    "id": 14,
+    "name": "Samburu",
+    "description": "The Samburu is a Nilotic tribe. The tribe communicates in Maa language, similar to their Maasai counterparts. The tribe also moves regularly, searching for water and pasture for their animals. The Samburu have kept their cultural practices with little influence from their lifestyles. Male circumcision is among the most regarded ritual celebration among the tribe.",
+    "residence": "Northern plains in Kenya",
+    "subtribes": []
+  },
+  {
+    "id": 15,
+    "name": "Somali",
+    "description": "Somali is a Cushitic tribe. Kenya's Somali population is over 2 million people. Somali is the dominant tribe in the Cushitic speaking community. The tribe is predominantly Muslim and no longer hold onto most of their traditional ways. Most of the tribe members are successful entrepreneurs now living in major urban centers in the country.",
+    "residence": "Kenya's northeastern province as well as parts of Ethiopia and Somali",
+    "subtribes": []
+  },
+  {
+    "id": 16,
+    "name": "Suba",
+    "description": "The Suba people communicate in the Suba language and are part of the Bantu community. The tribe has immediate origins in Uganda, later moving to occupy parts of the Mfangano and Rusinga islands.The tribe's culture and dialects are influenced significantly by the Luo tribe, their immediate neighbors. Even then, the Suba people hold fast to their ancient identity in terms of culture and dialect.",
+    "residence": "Mfangano and Rusinga islands",
+    "subtribes": []
+  },
+  {
+    "id": 17,
+    "name": "Swahili",
+    "description": "The Swahili people form part of the Bantu community. A better part of the Swahili language has origins in the Arabic dialect. The tribe's Bantu roots also play a crucial role in the constitution of the Swahili language. Swahili art has significant influences from the Arabs and is expressed through the design of jewelry, carpets, porcelain, and rugs.",
+    "residence": "Kenya's coastal area",
+    "subtribes": []
+  },
+  {
+    "id": 18,
+    "name": "Taita",
+    "description": "They are renowned gemstone miners. The tribe identifies with Christianity and Muslim, with a few people sticking to their traditional religion. It is also widely considered one of the most beautiful tribes in Kenya.",
+    "residence": "Taita hills in the southwestern parts of Kenya along the Tanzanian border",
+    "subtribes": []
+  },
+  {
+    "id": 19,
+    "name": "Taveta",
+    "description": "The Taveta tribe is one of the Bantu tribes found in Southern Kenya in the Taita Taveta County. The people are sometimes referred to as the Wataveta, which is the plural name of the people in their own language, Kitaveta.",
+    "residence": "Occupy the land between Tsavo national park and Tanzania",
+    "subtribes": []
+  },
+  {
+    "id": 20,
+    "name": "Turkana",
+    "description": "The Turkana belong to the Nilotic community and are native to the Turkana County in northwest Kenya, a semi-arid climate region bordering Lake Turkana in the east.",
+    "residence": "Turkana County in northwest Kenya",
+    "subtribes": []
+  },
+  {
+    "id": 21,
+    "name": "Gabra",
+    "description": "The Gabra are predominantly camel-herding nomads occupying the northeastern part of Kenya. The Gabra is a nomadic tribe of 31,000 people. They are an eastern Cushitic speaking people who originated in southern Ethiopia.",
+    "residence": "Resides along both sides of Kenya's border with Ethiopia",
+    "subtribes": []
+  },
+  {
+    "id": 22,
+    "name": "Mbeere",
+    "description": "The Mbeere people belong to the Bantu ethnic group. The tribe communicates in the Kimbeere dialect that has a close resemblance to the Kikuyu and Embu languages. READ ALSO Tribalism in Kenya - Causes and effects The tribe occupies an area with most of Kenya's power-generating stations, including Gitaru, Kamburu, Masinga, Kiambere, and Kindaruma dams. Other places of interest in the Mbeere region include the Kiangombe Mountain and Mwea National Reserve.",
+    "residence": "Kenya's Eastern region",
+    "subtribes": []
+  },
+  {
+    "id": 23,
+    "name": "Nubi",
+    "description": "The Nubi tribe originates in Sudan. Nubi people are common in urban setups that include Eldama-Ravine and Nairobi. There are about 16,000 Nubi people in Kenya, with about 15,000 residing in Uganda. The tribe has strongly upheld its culture and has long maintained the Sunni Islam religion despite influence from their neighbors.",
+    "residence": "Resides both in Kenya and Uganda",
+    "subtribes": []
+  },
+  {
+    "id": 24,
+    "name": "Tharaka",
+    "description": "A significant portion of the Tharaka people reportedly lives in urban setups, while the rest lead busy lives in villages. The Tharaka tribe is highly preservative and has managed to uphold its culture and traditions even with western influences. The Tharaka tribespeople are agrarians, mainly rearing goats, cows, cereal crops, sunflowers, and cotton. Additionally, the Tharaka people are also good businessmen.",
+    "residence": "Eastern Meru region, Kitui and Embu",
+    "subtribes": []
+  },
+  {
+    "id": 25,
+    "name": "Ilchamus",
+    "description": "The Ilchamus are pastoralists who occupied the Lake Baringo region after facing fierce clashes. As a result, the tribe is largely underdeveloped with wanting literacy levels. The Ilchamus are conservative people with industrious members who fish and rear animals.",
+    "residence": "Lake Baringo region",
+    "subtribes": []
+  },
+  {
+    "id": 26,
+    "name": "Njemps",
+    "description": "The Njemps population is about 40,000. The tribe's culture and dialect closely take after the Samburu. The tribe mainly depends on farming and fishing to earn a living.",
+    "residence": "Southern and southeastern part of Lake Baringo",
+    "subtribes": []
+  },
+  {
+    "id": 27,
+    "name": "Borana",
+    "description": "Borana is among the most distinct semi-nomadic tribes living in northern and eastern Africa. The tribe practices pastoralism and shares a distinct history of conflicts over grazing land and other resources. The tribe communicates in the Oromo language and centers its economy on animals such as cows, sheep, and goats.",
+    "residence": "Northern Kenya region, particularly Marsabit, Moyale, and Garissa.",
+    "subtribes": []
+  },
+  {
+    "id": 28,
+    "name": "Galla",
+    "description": "The Galla are widely spread in the eastern parts of Kenya. The Galla constitute one of the largest racial groups in Ethiopia and a small minority in Kenya. They are concentrated in the southern provinces in Ethiopia, with sizable settlements in Harar.",
+    "residence": "Eastern parts of Kenya.",
+    "subtribes": []
+  },
+  {
+    "id": 29,
+    "name": "Gosha",
+    "description": "The Gosha people are bilingual, fluent in Oromo and Garre-Ajuuraan. The Gosha tribe is largely conservative and practices the Islamic faith.",
+    "residence": "Northeastern areas of Kenya",
+    "subtribes": []
+  },
+  {
+    "id": 30,
+    "name": "Konso",
+    "description": "The Konso tribe is also called Xonsita. The tribe comprises Cushitic-speaking members. The Konso tribe is largely agricultural and involves the irrigation and terracing of mountain slopes. Staple crops include sorghum and corn, with cash crops including cotton and coffee. Cattle, sheep, and goats are reared for food and milk.",
+    "residence": "Kenya and South-central Ethiopia",
+    "subtribes": []
+  },
+  {
+    "id": 31,
+    "name": "Sakuye",
+    "description": "Sakuye is a semi-nomadic tribe. The tribesmen are pastoralists.",
+    "residence": "Isiolo and Marsabit counties",
+    "subtribes": []
+  },
+  {
+    "id": 32,
+    "name": "waat",
+    "description": "The Waat people speak in the Oromo language and share much of their cultural practices with the Orma and other Oromo-affiliated groups.",
+    "residence": "Kenya",
+    "subtribes": []
+  },
+  {
+    "id": 33,
+    "name": "Isaak/Isaaq",
+    "description": "Isaak is one of the Somali-affiliated tribes marked with dense traditions and culture. The Isaak/Isaaq is also one of the major noble Somali clans in the Horn of Africa, with a large and densely populated traditional territory.",
+    "residence": "Horn of African",
+    "subtribes": []
+  },
+  {
+    "id": 34,
+    "name": "Walwana",
+    "description": "Walwana is a vibrant tribe comprising about 20,000 people, according to the 2019 census. The Walwana can be predominantly found in Bomet county.",
+    "residence": "Bomet county",
+    "subtribes": []
+  },
+  {
+    "id": 35,
+    "name": "Dasenach",
+    "description": "The tribe has origins in the Debub Omo Zone close to Lake Turkana. The Dasenach people are primarily agro-pastoral with a few entrepreneurial undertakings.",
+    "residence": "Occupies parts of Ethiopia, Sudan, and Kenya",
+    "subtribes": []
+  },
+  {
+    "id": 36,
+    "name": "Galjeel",
+    "description": "The tribe is one of the minority tribes in Kenya but among the significant ones in Somalia. The Galjeel is among the largest Somali clans whose origins trace back to Gardhere.",
+    "residence": "Alongside the Issa, Masare, and Degodia.",
+    "subtribes": []
+  },
+  {
+    "id": 37,
+    "name": "Leysan",
+    "description": "The tribe comprises both Digil and Mirifle and mainly resides along the Kenya-Somalia border. The tribe also occupies a small part of eastern Kenya. The tribe members are mostly nomadic pastoralists as well as agrarians.",
+    "residence": "Kenya-Somalia border",
+    "subtribes": [
+      {
+        "id": 1,
+        "name": "Dilgil"
+      },
+      {
+        "id": 2,
+        "name": "Mirefle"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Burji",
+    "description": "There are over 150,000 Burji speakers scattered across Southern Ethiopia and Northeastern Kenya. The Burji have lived in their current territory for over 400 years, where they perfected their love of agriculture and became expert farmers. The Burji people are highly regarded as agricultural experts in this region of the world, famous for their skills and ability to farm arid lands.",
+    "residence": "Southern Ethiopia and Northeastern Kenya",
+    "subtribes": []
+  },
+  {
+    "id": 39,
+    "name": "Teso",
+    "description": "The Teso people have resided in both Kenya and Uganda since the scramble and partition of Africa. Teso is a Nilotic tribe closely resembling the Maasai, Turkana, and Samburu. 40. Kenyan Arabs.",
+    "residence": "Resided in both Kenya and Uganda",
+    "subtribes": []
+  },
+  {
+    "id": 40,
+    "name": "Kenyan Arabs",
+    "description": "The tribe is historically attached to the Omani, Yemeni, and Persian traders who threaded the region ahead of colonization. The people from this tribe are major traders and run enterprises ranging from small shops to huge business ventures.",
+    "residence": "Live along the coastline in the Indian Ocean",
+    "subtribes": []
+  },
+  {
+    "id": 41,
+    "name": "Asian community",
+    "description": "Recently recognized as a tribe in the country, the Asian community in Kenya has numerous members. The community represents the Asian descendants of the Kenya-Uganda railway builders brought to the country as laborers. The people of the tribe are considered successful commercial pioneers in the country.",
+    "residence": "Kenya",
+    "subtribes": []
+  },
+  {
+    "id": 42,
+    "name": "Kenyan American tribe",
+    "description": "Americans of Kenyan descent are now a recognized tribe with a current population of over 95,000. Many Kenyan American people reside in Washington, California, Maryland, Indiana, Texas, New York, North California, and Georgia.",
+    "residence": "Washington, California, Maryland, Indiana, Texas, New York, North California, and Georgia",
+    "subtribes": []
+  }
+  ]
