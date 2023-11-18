@@ -34,17 +34,21 @@ Route::group(['prefix' => 'v1/'], function () {
     });
     Route::group(['prefix' => 'proverbs'], function () {
         Route::middleware(SANCTUM)->post('/', [ProverbController::class, 'store']);
+        Route::middleware(SANCTUM)->put('/{id}', [ProverbController::class, 'update']);
         Route::get('/', [ProverbController::class, 'index']);
         Route::get('/search', [ProverbController::class, 'search']);
+        Route::get('/{id}', [ProverbController::class, 'show']);
     });
     Route::group(['prefix' => 'subtribe', SANCTUM], function () {
         Route::get('/', [SubtribeController::class, 'index']);
         Route::post('/', [SubtribeController::class, 'store']);
+        Route::get('/{id}', [SubtribeController::class, 'show']);
         Route::put('/{id}', [SubtribeController::class, 'update']);
     });
     Route::group(['prefix' => 'native-languages', SANCTUM], function () {
         Route::get('/', [NativeLanguageController::class, 'index']);
         Route::post('/', [NativeLanguageController::class, 'store']);
+        Route::get('/{id}', [NativeLanguageController::class, 'show']);
         Route::put('/{id}', [NativeLanguageController::class, 'update']);
     });
     Route::group(['prefix' => 'artisan'], function () {

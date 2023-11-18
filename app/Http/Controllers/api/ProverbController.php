@@ -17,7 +17,7 @@ class ProverbController extends Controller
      */
     public function index()
     {
-        $data=Proverb::paginate(2);
+        $data = Proverb::paginate(2);
         return response()->json(
             new CustomResponse("Fetch successfully", true, 200, $data),
             200
@@ -64,7 +64,6 @@ class ProverbController extends Controller
      */
     public function store(Request $request)
     {
-        Log::info("===============================");
         $validator = Validator::make($request->all(), [
             'localProverb' => 'required',
             'language_id' => 'required'
@@ -88,6 +87,42 @@ class ProverbController extends Controller
         } else {
             return response()->json(
                 new CustomResponse("Error occured while adding the proverb contact support", false, 500, null),
+                500
+            );
+        }
+    }
+    /**
+     * Store a newly created resource in storage.
+     */
+    public function update($id, Request $request)
+    {
+        $fieldsToUpdate = [];
+        $updateableFields = ['local_proverb', 'meaning', 'eng_transalion', 'is_active'];
+        foreach ($request->all() as $key => $value) {
+            if (in_array($key, $updateableFields)) {
+                $fieldsToUpdate[$key] = $value;
+            }
+        }
+
+        $proverb = Proverb::find($id);
+        if ($proverb == null) {
+            return response()->json(
+                new CustomResponse("Proverb with id $id is not found", true, 200),
+                200
+            );
+        }
+        foreach ($fieldsToUpdate as $key => $value) {
+            $proverb->$key = $value;
+        }
+        $proverb->save();
+        if ($proverb) {
+            return response()->json(
+                new CustomResponse("Proverb updated successfully", true, 200),
+                200
+            );
+        } else {
+            return response()->json(
+                new CustomResponse("Error occured while adding the proverb contact support", false, 500),
                 500
             );
         }
